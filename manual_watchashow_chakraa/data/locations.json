@@ -1,0 +1,156 @@
+[
+  {
+    "name": "Episode 1 - Item 1",
+    "region": "Episode 1",
+    "category": [
+      "Episode 1"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Episode 1 - Item 2",
+    "region": "Episode 1",
+    "category": [
+      "Episode 1"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Episode 2 - Item 1",
+    "region": "Episode 2",
+    "category": [
+      "Episode 2"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Episode 2 - Item 2",
+    "region": "Episode 2",
+    "category": [
+      "Episode 2"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Episode 3 - Item 1",
+    "region": "Episode 3",
+    "category": [
+      "Episode 3"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Episode 3 - Item 2",
+    "region": "Episode 3",
+    "category": [
+      "Episode 3"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Episode 4 - Item 1",
+    "region": "Episode 4",
+    "category": [
+      "Episode 4"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Episode 4 - Item 2",
+    "region": "Episode 4",
+    "category": [
+      "Episode 4"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Episode 5 - Item 1",
+    "region": "Episode 5",
+    "category": [
+      "Episode 5"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Episode 5 - Item 2",
+    "region": "Episode 5",
+    "category": [
+      "Episode 5"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Episode 6 - Item 1",
+    "region": "Episode 6",
+    "category": [
+      "Episode 6"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Episode 6 - Item 2",
+    "region": "Episode 6",
+    "category": [
+      "Episode 6"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Episode 7 - Item 1",
+    "region": "Episode 7",
+    "category": [
+      "Episode 7"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Episode 7 - Item 2",
+    "region": "Episode 7",
+    "category": [
+      "Episode 7"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Episode 8 - Item 1",
+    "region": "Episode 8",
+    "category": [
+      "Episode 8"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Episode 8 - Item 2",
+    "region": "Episode 8",
+    "category": [
+      "Episode 8"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Episode 9 - Item 1",
+    "victory": false,
+    "region": "Episode 9",
+    "category": [
+      "Episode 9"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Episode 9 - Item 2",
+    "region": "Episode 9",
+    "category": [
+      "Episode 9"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Victory",
+    "victory": true,
+    "region": "Episode 9",
+    "category": [
+      "Episode 9"
+    ],
+    "requires": []
+  }
+]

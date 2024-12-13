@@ -1,0 +1,55 @@
+{
+  "Episode 1": {
+    "starting": true,
+    "connects_to": [
+      "Episode 2"
+    ],
+    "requires": "|Episode 1|"
+  },
+  "Episode 2": {
+    "connects_to": [
+      "Episode 3"
+    ],
+    "requires": "|Episode 1| AND |Episode 2|"
+  },
+  "Episode 3": {
+    "connects_to": [
+      "Episode 4"
+    ],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3|"
+  },
+  "Episode 4": {
+    "connects_to": [
+      "Episode 5"
+    ],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4|"
+  },
+  "Episode 5": {
+    "connects_to": [
+      "Episode 6"
+    ],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5|"
+  },
+  "Episode 6": {
+    "connects_to": [
+      "Episode 7"
+    ],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6|"
+  },
+  "Episode 7": {
+    "connects_to": [
+      "Episode 8"
+    ],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7|"
+  },
+  "Episode 8": {
+    "connects_to": [
+      "Episode 9"
+    ],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7| AND |Episode 8|"
+  },
+  "Episode 9": {
+    "connects_to": [],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7| AND |Episode 8| AND |Episode 9|"
+  }
+}

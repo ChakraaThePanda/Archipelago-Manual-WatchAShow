@@ -1,0 +1,11 @@
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.game.schema.json",
+  "game": "WatchAShow",
+  "creator": "Chakraa",
+  "filler_item_name": "Bisou",
+  "starting_items": [
+    {
+            "items": ["Episode 1"]
+    }
+  ]
+}

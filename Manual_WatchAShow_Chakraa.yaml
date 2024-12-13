@@ -1,0 +1,6 @@
+Manual_WatchAShow_Chakraa:
+    progression_balancing: 50
+    accessibility: items
+
+game: Manual_WatchAShow_Chakraa
+name: Player{number}

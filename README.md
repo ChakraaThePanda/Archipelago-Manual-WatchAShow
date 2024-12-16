@@ -2,6 +2,4 @@
  Files required to run the Manual Archipelago for Watch-A-Show
 
 ## Unflexibility
-Currently this apworld is pretty set in stone in the utility I have for it at this time, meaning that if I were to create a different number of episodes, I'd have to modify it in the source code of the APWorld.
-
-So unless you know what you are doing with it, this is pretty unusable outside of the scope I'm using it for.
+Currently this apworld is a bit unflexible as it currently only works with a maximum of 20 episodes, set in the YAML.

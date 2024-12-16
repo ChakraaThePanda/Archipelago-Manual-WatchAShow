@@ -129,7 +129,6 @@
   },
   {
     "name": "Episode 9 - Item 1",
-    "victory": false,
     "region": "Episode 9",
     "category": [
       "Episode 9"
@@ -145,11 +144,186 @@
     "requires": []
   },
   {
-    "name": "Victory",
+    "name": "Victory - Last Episode Watched",
     "victory": true,
-    "region": "Episode 9",
     "category": [
-      "Episode 9"
+      "Last Episode"
+    ],
+    "requires": "|@Episodes:ALL|"
+  },
+  {
+    "name": "Episode 10 - Item 1",
+    "region": "Episode 10",
+    "category": [
+      "Episode 10"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Episode 10 - Item 2",
+    "region": "Episode 10",
+    "category": [
+      "Episode 10"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Episode 11 - Item 1",
+    "region": "Episode 11",
+    "category": [
+      "Episode 11"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Episode 11 - Item 2",
+    "region": "Episode 11",
+    "category": [
+      "Episode 11"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Episode 12 - Item 1",
+    "region": "Episode 12",
+    "category": [
+      "Episode 12"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Episode 12 - Item 2",
+    "region": "Episode 12",
+    "category": [
+      "Episode 12"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Episode 13 - Item 1",
+    "region": "Episode 13",
+    "category": [
+      "Episode 13"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Episode 13 - Item 2",
+    "region": "Episode 13",
+    "category": [
+      "Episode 13"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Episode 14 - Item 1",
+    "region": "Episode 14",
+    "category": [
+      "Episode 14"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Episode 14 - Item 2",
+    "region": "Episode 14",
+    "category": [
+      "Episode 14"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Episode 15 - Item 1",
+    "region": "Episode 15",
+    "category": [
+      "Episode 15"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Episode 15 - Item 2",
+    "region": "Episode 15",
+    "category": [
+      "Episode 15"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Episode 16 - Item 1",
+    "region": "Episode 16",
+    "category": [
+      "Episode 16"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Episode 16 - Item 2",
+    "region": "Episode 16",
+    "category": [
+      "Episode 16"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Episode 17 - Item 1",
+    "region": "Episode 17",
+    "category": [
+      "Episode 17"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Episode 17 - Item 2",
+    "region": "Episode 17",
+    "category": [
+      "Episode 17"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Episode 18 - Item 1",
+    "region": "Episode 18",
+    "category": [
+      "Episode 18"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Episode 18 - Item 2",
+    "region": "Episode 18",
+    "category": [
+      "Episode 18"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Episode 19 - Item 1",
+    "region": "Episode 19",
+    "category": [
+      "Episode 19"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Episode 19 - Item 2",
+    "region": "Episode 19",
+    "category": [
+      "Episode 19"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Episode 20 - Item 1",
+    "region": "Episode 20",
+    "category": [
+      "Episode 20"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Episode 20 - Item 2",
+    "region": "Episode 20",
+    "category": [
+      "Episode 20"
     ],
     "requires": []
   }

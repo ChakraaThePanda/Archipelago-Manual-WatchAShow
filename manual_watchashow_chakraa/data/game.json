@@ -5,7 +5,9 @@
   "filler_item_name": "Bisou",
   "starting_items": [
     {
-            "items": ["Episode 1"]
+      "items": [
+        "Episode 1"
+      ]
     }
   ]
 }

@@ -49,7 +49,73 @@
     "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7| AND |Episode 8|"
   },
   "Episode 9": {
-    "connects_to": [],
+    "connects_to": [
+      "Episode 10"
+    ],
     "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7| AND |Episode 8| AND |Episode 9|"
+  },
+  "Episode 10": {
+    "connects_to": [
+      "Episode 11"
+    ],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7| AND |Episode 8| AND |Episode 9| AND |Episode 10|"
+  },
+  "Episode 11": {
+    "connects_to": [
+      "Episode 12"
+    ],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7| AND |Episode 8| AND |Episode 9| AND |Episode 10| AND |Episode 11|"
+  },
+  "Episode 12": {
+    "connects_to": [
+      "Episode 13"
+    ],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7| AND |Episode 8| AND |Episode 9| AND |Episode 10| AND |Episode 11| AND |Episode 12|"
+  },
+  "Episode 13": {
+    "connects_to": [
+      "Episode 14"
+    ],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7| AND |Episode 8| AND |Episode 9| AND |Episode 10| AND |Episode 11| AND |Episode 12| AND |Episode 13|"
+  },
+  "Episode 14": {
+    "connects_to": [
+      "Episode 15"
+    ],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7| AND |Episode 8| AND |Episode 9| AND |Episode 10| AND |Episode 11| AND |Episode 12| AND |Episode 13| AND |Episode 14|"
+  },
+  "Episode 15": {
+    "connects_to": [
+      "Episode 16"
+    ],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7| AND |Episode 8| AND |Episode 9| AND |Episode 10| AND |Episode 11| AND |Episode 12| AND |Episode 13| AND |Episode 14| AND |Episode 15|"
+  },
+  "Episode 16": {
+    "connects_to": [
+      "Episode 17"
+    ],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7| AND |Episode 8| AND |Episode 9| AND |Episode 10| AND |Episode 11| AND |Episode 12| AND |Episode 13| AND |Episode 14| AND |Episode 15| AND |Episode 16|"
+  },
+  "Episode 17": {
+    "connects_to": [
+      "Episode 18"
+    ],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7| AND |Episode 8| AND |Episode 9| AND |Episode 10| AND |Episode 11| AND |Episode 12| AND |Episode 13| AND |Episode 14| AND |Episode 15| AND |Episode 16| AND |Episode 17|"
+  },
+  "Episode 18": {
+    "connects_to": [
+      "Episode 19"
+    ],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7| AND |Episode 8| AND |Episode 9| AND |Episode 10| AND |Episode 11| AND |Episode 12| AND |Episode 13| AND |Episode 14| AND |Episode 15| AND |Episode 16| AND |Episode 17| AND |Episode 18|"
+  },
+  "Episode 19": {
+    "connects_to": [
+      "Episode 20"
+    ],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7| AND |Episode 8| AND |Episode 9| AND |Episode 10| AND |Episode 11| AND |Episode 12| AND |Episode 13| AND |Episode 14| AND |Episode 15| AND |Episode 16| AND |Episode 17| AND |Episode 18| AND |Episode 19|"
+  },
+  "Episode 20": {
+    "connects_to": [],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7| AND |Episode 8| AND |Episode 9| AND |Episode 10| AND |Episode 11| AND |Episode 12| AND |Episode 13| AND |Episode 14| AND |Episode 15| AND |Episode 16| AND |Episode 17| AND |Episode 18| AND |Episode 19| AND |Episode 20|"
   }
 }

@@ -5,6 +5,7 @@ from BaseClasses import MultiWorld, CollectionState
 # Object classes from Manual -- extending AP core -- representing items and locations that are used in generation
 from ..Items import ManualItem
 from ..Locations import ManualLocation
+from .Options import NumberofEpisodes
 
 # Raw JSON data from the Manual apworld, respectively:
 #          data/game.json, data/items.json, data/locations.json, data/regions.json
@@ -43,15 +44,23 @@ def before_create_regions(world: World, multiworld: MultiWorld, player: int):
 # Called after regions and locations are created, in case you want to see or modify that information. Victory location is included.
 def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     # Use this hook to remove locations from the world
-    locationNamesToRemove = [] # List of location names
+    locationNamesToRemove = []  # List of location names to remove
+    number_of_episodes = get_option_value(multiworld, player, "number_of_episodes")  # Get the maximum episode limit
 
-    # Add your code here to calculate which locations to remove
-
+    # Iterate through all regions in the multiworld
     for region in multiworld.regions:
-        if region.player == player:
-            for location in list(region.locations):
-                if location.name in locationNamesToRemove:
-                    region.locations.remove(location)
+        if region.player == player:  # Only process regions for the current player
+            for location in list(region.locations):  # Copy of the locations list for safe iteration
+                if location.name.startswith("Episode "):  # Check if the location name starts with "Episode "
+                    try:
+                        episode_number = int(location.name.split(" ")[1])  # Extract episode number
+                        if episode_number > number_of_episodes:  # Compare with the limit
+                            region.locations.remove(location)  # Remove the location
+                    except ValueError:
+                        # If parsing fails, skip this entry
+                        continue
+
+    # Clear the location cache if the multiworld has this method
     if hasattr(multiworld, "clear_location_cache"):
         multiworld.clear_location_cache()
 
@@ -59,29 +68,24 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
 def before_create_items_starting(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
     return item_pool
 
-# The item pool after starting items are processed but before filler is added, in case you want to see the raw item pool at that stage
-def before_create_items_filler(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
+def before_create_items_filler(item_pool: list, world, multiworld, player: int) -> list:
     # Use this hook to remove items from the item pool
-    itemNamesToRemove = [] # List of item names
+    itemNamesToRemove = []  # List of item names
+    number_of_episodes = get_option_value(multiworld, player, "number_of_episodes")  # Define how many episodes we want
 
-    # Add your code here to calculate which items to remove.
-    #
-    # Because multiple copies of an item can exist, you need to add an item name
-    # to the list multiple times if you want to remove multiple copies of it.
+    for item_check in list(item_pool):  # Create a copy of the item_pool to iterate through
+        if item_check.name.startswith("Episode "):  # Check if the item name starts with "Episode "
+            try:
+                episode_number = int(item_check.name.split(" ")[1])  # Extract the episode number
+                if episode_number > number_of_episodes:  # Compare the episode number
+                    item_pool.remove(item_check)  # Remove the item from the pool
+            except ValueError:
+                # If the number can't be parsed, skip this item
+                continue
 
-    for itemName in itemNamesToRemove:
-        item = next(i for i in item_pool if i.name == itemName)
-        item_pool.remove(item)
+    item_pool = world.add_filler_items(item_pool, [])  # Add filler items
 
-    return item_pool
-
-    # Some other useful hook options:
-
-    ## Place an item at a specific location
-    # location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == "Location Name")
-    # item_to_place = next(i for i in item_pool if i.name == "Item Name")
-    # location.place_locked_item(item_to_place)
-    # item_pool.remove(item_to_place)
+    return item_pool  # Give the modified pool back to the multiworld
 
 # The complete item pool prior to being set for generation is provided here, in case you want to make changes to it
 def after_create_items(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:

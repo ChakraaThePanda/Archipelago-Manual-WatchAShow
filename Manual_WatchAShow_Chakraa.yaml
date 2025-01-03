@@ -1,25 +1,7 @@
 Manual_WatchAShow_Chakraa:
     progression_balancing: 50
     accessibility: items
-    episode_2: true
-    episode_3: true
-    episode_4: true
-    episode_5: true
-    episode_6: true
-    episode_7: true
-    episode_8: true
-    episode_9: true
-    episode_10: false
-    episode_11: false
-    episode_12: false
-    episode_13: false
-    episode_14: false
-    episode_15: false
-    episode_16: false
-    episode_17: false
-    episode_18: false
-    episode_19: false
-    episode_20: false
+    number_of_episodes: 10
 
 game: Manual_WatchAShow_Chakraa
 name: Player{number}

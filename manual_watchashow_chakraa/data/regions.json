@@ -115,7 +115,187 @@
     "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7| AND |Episode 8| AND |Episode 9| AND |Episode 10| AND |Episode 11| AND |Episode 12| AND |Episode 13| AND |Episode 14| AND |Episode 15| AND |Episode 16| AND |Episode 17| AND |Episode 18| AND |Episode 19|"
   },
   "Episode 20": {
-    "connects_to": [],
+    "connects_to": [
+      "Episode 21"
+    ],
     "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7| AND |Episode 8| AND |Episode 9| AND |Episode 10| AND |Episode 11| AND |Episode 12| AND |Episode 13| AND |Episode 14| AND |Episode 15| AND |Episode 16| AND |Episode 17| AND |Episode 18| AND |Episode 19| AND |Episode 20|"
+  },
+  "Episode 21": {
+    "connects_to": [
+      "Episode 22"
+    ],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7| AND |Episode 8| AND |Episode 9| AND |Episode 10| AND |Episode 11| AND |Episode 12| AND |Episode 13| AND |Episode 14| AND |Episode 15| AND |Episode 16| AND |Episode 17| AND |Episode 18| AND |Episode 19| AND |Episode 20| AND |Episode 21|"
+  },
+  "Episode 22": {
+    "connects_to": [
+      "Episode 23"
+    ],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7| AND |Episode 8| AND |Episode 9| AND |Episode 10| AND |Episode 11| AND |Episode 12| AND |Episode 13| AND |Episode 14| AND |Episode 15| AND |Episode 16| AND |Episode 17| AND |Episode 18| AND |Episode 19| AND |Episode 20| AND |Episode 21| AND |Episode 22|"
+  },
+  "Episode 23": {
+    "connects_to": [
+      "Episode 24"
+    ],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7| AND |Episode 8| AND |Episode 9| AND |Episode 10| AND |Episode 11| AND |Episode 12| AND |Episode 13| AND |Episode 14| AND |Episode 15| AND |Episode 16| AND |Episode 17| AND |Episode 18| AND |Episode 19| AND |Episode 20| AND |Episode 21| AND |Episode 22| AND |Episode 23|"
+  },
+  "Episode 24": {
+    "connects_to": [
+      "Episode 25"
+    ],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7| AND |Episode 8| AND |Episode 9| AND |Episode 10| AND |Episode 11| AND |Episode 12| AND |Episode 13| AND |Episode 14| AND |Episode 15| AND |Episode 16| AND |Episode 17| AND |Episode 18| AND |Episode 19| AND |Episode 20| AND |Episode 21| AND |Episode 22| AND |Episode 23| AND |Episode 24|"
+  },
+  "Episode 25": {
+    "connects_to": [
+      "Episode 26"
+    ],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7| AND |Episode 8| AND |Episode 9| AND |Episode 10| AND |Episode 11| AND |Episode 12| AND |Episode 13| AND |Episode 14| AND |Episode 15| AND |Episode 16| AND |Episode 17| AND |Episode 18| AND |Episode 19| AND |Episode 20| AND |Episode 21| AND |Episode 22| AND |Episode 23| AND |Episode 24| AND |Episode 25|"
+  },
+  "Episode 26": {
+    "connects_to": [
+      "Episode 27"
+    ],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7| AND |Episode 8| AND |Episode 9| AND |Episode 10| AND |Episode 11| AND |Episode 12| AND |Episode 13| AND |Episode 14| AND |Episode 15| AND |Episode 16| AND |Episode 17| AND |Episode 18| AND |Episode 19| AND |Episode 20| AND |Episode 21| AND |Episode 22| AND |Episode 23| AND |Episode 24| AND |Episode 25| AND |Episode 26|"
+  },
+  "Episode 27": {
+    "connects_to": [
+      "Episode 28"
+    ],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7| AND |Episode 8| AND |Episode 9| AND |Episode 10| AND |Episode 11| AND |Episode 12| AND |Episode 13| AND |Episode 14| AND |Episode 15| AND |Episode 16| AND |Episode 17| AND |Episode 18| AND |Episode 19| AND |Episode 20| AND |Episode 21| AND |Episode 22| AND |Episode 23| AND |Episode 24| AND |Episode 25| AND |Episode 26| AND |Episode 27|"
+  },
+  "Episode 28": {
+    "connects_to": [
+      "Episode 29"
+    ],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7| AND |Episode 8| AND |Episode 9| AND |Episode 10| AND |Episode 11| AND |Episode 12| AND |Episode 13| AND |Episode 14| AND |Episode 15| AND |Episode 16| AND |Episode 17| AND |Episode 18| AND |Episode 19| AND |Episode 20| AND |Episode 21| AND |Episode 22| AND |Episode 23| AND |Episode 24| AND |Episode 25| AND |Episode 26| AND |Episode 27| AND |Episode 28|"
+  },
+  "Episode 29": {
+    "connects_to": [
+      "Episode 30"
+    ],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7| AND |Episode 8| AND |Episode 9| AND |Episode 10| AND |Episode 11| AND |Episode 12| AND |Episode 13| AND |Episode 14| AND |Episode 15| AND |Episode 16| AND |Episode 17| AND |Episode 18| AND |Episode 19| AND |Episode 20| AND |Episode 21| AND |Episode 22| AND |Episode 23| AND |Episode 24| AND |Episode 25| AND |Episode 26| AND |Episode 27| AND |Episode 28| AND |Episode 29|"
+  },
+  "Episode 30": {
+    "connects_to": [
+      "Episode 31"
+    ],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7| AND |Episode 8| AND |Episode 9| AND |Episode 10| AND |Episode 11| AND |Episode 12| AND |Episode 13| AND |Episode 14| AND |Episode 15| AND |Episode 16| AND |Episode 17| AND |Episode 18| AND |Episode 19| AND |Episode 20| AND |Episode 21| AND |Episode 22| AND |Episode 23| AND |Episode 24| AND |Episode 25| AND |Episode 26| AND |Episode 27| AND |Episode 28| AND |Episode 29| AND |Episode 30|"
+  },
+  "Episode 31": {
+    "connects_to": [
+      "Episode 32"
+    ],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7| AND |Episode 8| AND |Episode 9| AND |Episode 10| AND |Episode 11| AND |Episode 12| AND |Episode 13| AND |Episode 14| AND |Episode 15| AND |Episode 16| AND |Episode 17| AND |Episode 18| AND |Episode 19| AND |Episode 20| AND |Episode 21| AND |Episode 22| AND |Episode 23| AND |Episode 24| AND |Episode 25| AND |Episode 26| AND |Episode 27| AND |Episode 28| AND |Episode 29| AND |Episode 30| AND |Episode 31|"
+  },
+  "Episode 32": {
+    "connects_to": [
+      "Episode 33"
+    ],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7| AND |Episode 8| AND |Episode 9| AND |Episode 10| AND |Episode 11| AND |Episode 12| AND |Episode 13| AND |Episode 14| AND |Episode 15| AND |Episode 16| AND |Episode 17| AND |Episode 18| AND |Episode 19| AND |Episode 20| AND |Episode 21| AND |Episode 22| AND |Episode 23| AND |Episode 24| AND |Episode 25| AND |Episode 26| AND |Episode 27| AND |Episode 28| AND |Episode 29| AND |Episode 30| AND |Episode 31| AND |Episode 32|"
+  },
+  "Episode 33": {
+    "connects_to": [
+      "Episode 34"
+    ],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7| AND |Episode 8| AND |Episode 9| AND |Episode 10| AND |Episode 11| AND |Episode 12| AND |Episode 13| AND |Episode 14| AND |Episode 15| AND |Episode 16| AND |Episode 17| AND |Episode 18| AND |Episode 19| AND |Episode 20| AND |Episode 21| AND |Episode 22| AND |Episode 23| AND |Episode 24| AND |Episode 25| AND |Episode 26| AND |Episode 27| AND |Episode 28| AND |Episode 29| AND |Episode 30| AND |Episode 31| AND |Episode 32| AND |Episode 33|"
+  },
+  "Episode 34": {
+    "connects_to": [
+      "Episode 35"
+    ],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7| AND |Episode 8| AND |Episode 9| AND |Episode 10| AND |Episode 11| AND |Episode 12| AND |Episode 13| AND |Episode 14| AND |Episode 15| AND |Episode 16| AND |Episode 17| AND |Episode 18| AND |Episode 19| AND |Episode 20| AND |Episode 21| AND |Episode 22| AND |Episode 23| AND |Episode 24| AND |Episode 25| AND |Episode 26| AND |Episode 27| AND |Episode 28| AND |Episode 29| AND |Episode 30| AND |Episode 31| AND |Episode 32| AND |Episode 33| AND |Episode 34|"
+  },
+  "Episode 35": {
+    "connects_to": [
+      "Episode 36"
+    ],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7| AND |Episode 8| AND |Episode 9| AND |Episode 10| AND |Episode 11| AND |Episode 12| AND |Episode 13| AND |Episode 14| AND |Episode 15| AND |Episode 16| AND |Episode 17| AND |Episode 18| AND |Episode 19| AND |Episode 20| AND |Episode 21| AND |Episode 22| AND |Episode 23| AND |Episode 24| AND |Episode 25| AND |Episode 26| AND |Episode 27| AND |Episode 28| AND |Episode 29| AND |Episode 30| AND |Episode 31| AND |Episode 32| AND |Episode 33| AND |Episode 34| AND |Episode 35|"
+  },
+  "Episode 36": {
+    "connects_to": [
+      "Episode 37"
+    ],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7| AND |Episode 8| AND |Episode 9| AND |Episode 10| AND |Episode 11| AND |Episode 12| AND |Episode 13| AND |Episode 14| AND |Episode 15| AND |Episode 16| AND |Episode 17| AND |Episode 18| AND |Episode 19| AND |Episode 20| AND |Episode 21| AND |Episode 22| AND |Episode 23| AND |Episode 24| AND |Episode 25| AND |Episode 26| AND |Episode 27| AND |Episode 28| AND |Episode 29| AND |Episode 30| AND |Episode 31| AND |Episode 32| AND |Episode 33| AND |Episode 34| AND |Episode 35| AND |Episode 36|"
+  },
+  "Episode 37": {
+    "connects_to": [
+      "Episode 38"
+    ],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7| AND |Episode 8| AND |Episode 9| AND |Episode 10| AND |Episode 11| AND |Episode 12| AND |Episode 13| AND |Episode 14| AND |Episode 15| AND |Episode 16| AND |Episode 17| AND |Episode 18| AND |Episode 19| AND |Episode 20| AND |Episode 21| AND |Episode 22| AND |Episode 23| AND |Episode 24| AND |Episode 25| AND |Episode 26| AND |Episode 27| AND |Episode 28| AND |Episode 29| AND |Episode 30| AND |Episode 31| AND |Episode 32| AND |Episode 33| AND |Episode 34| AND |Episode 35| AND |Episode 36| AND |Episode 37|"
+  },
+  "Episode 38": {
+    "connects_to": [
+      "Episode 39"
+    ],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7| AND |Episode 8| AND |Episode 9| AND |Episode 10| AND |Episode 11| AND |Episode 12| AND |Episode 13| AND |Episode 14| AND |Episode 15| AND |Episode 16| AND |Episode 17| AND |Episode 18| AND |Episode 19| AND |Episode 20| AND |Episode 21| AND |Episode 22| AND |Episode 23| AND |Episode 24| AND |Episode 25| AND |Episode 26| AND |Episode 27| AND |Episode 28| AND |Episode 29| AND |Episode 30| AND |Episode 31| AND |Episode 32| AND |Episode 33| AND |Episode 34| AND |Episode 35| AND |Episode 36| AND |Episode 37| AND |Episode 38|"
+  },
+  "Episode 39": {
+    "connects_to": [
+      "Episode 40"
+    ],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7| AND |Episode 8| AND |Episode 9| AND |Episode 10| AND |Episode 11| AND |Episode 12| AND |Episode 13| AND |Episode 14| AND |Episode 15| AND |Episode 16| AND |Episode 17| AND |Episode 18| AND |Episode 19| AND |Episode 20| AND |Episode 21| AND |Episode 22| AND |Episode 23| AND |Episode 24| AND |Episode 25| AND |Episode 26| AND |Episode 27| AND |Episode 28| AND |Episode 29| AND |Episode 30| AND |Episode 31| AND |Episode 32| AND |Episode 33| AND |Episode 34| AND |Episode 35| AND |Episode 36| AND |Episode 37| AND |Episode 38| AND |Episode 39|"
+  },
+  "Episode 40": {
+    "connects_to": [
+      "Episode 41"
+    ],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7| AND |Episode 8| AND |Episode 9| AND |Episode 10| AND |Episode 11| AND |Episode 12| AND |Episode 13| AND |Episode 14| AND |Episode 15| AND |Episode 16| AND |Episode 17| AND |Episode 18| AND |Episode 19| AND |Episode 20| AND |Episode 21| AND |Episode 22| AND |Episode 23| AND |Episode 24| AND |Episode 25| AND |Episode 26| AND |Episode 27| AND |Episode 28| AND |Episode 29| AND |Episode 30| AND |Episode 31| AND |Episode 32| AND |Episode 33| AND |Episode 34| AND |Episode 35| AND |Episode 36| AND |Episode 37| AND |Episode 38| AND |Episode 39| AND |Episode 40|"
+  },
+  "Episode 41": {
+    "connects_to": [
+      "Episode 42"
+    ],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7| AND |Episode 8| AND |Episode 9| AND |Episode 10| AND |Episode 11| AND |Episode 12| AND |Episode 13| AND |Episode 14| AND |Episode 15| AND |Episode 16| AND |Episode 17| AND |Episode 18| AND |Episode 19| AND |Episode 20| AND |Episode 21| AND |Episode 22| AND |Episode 23| AND |Episode 24| AND |Episode 25| AND |Episode 26| AND |Episode 27| AND |Episode 28| AND |Episode 29| AND |Episode 30| AND |Episode 31| AND |Episode 32| AND |Episode 33| AND |Episode 34| AND |Episode 35| AND |Episode 36| AND |Episode 37| AND |Episode 38| AND |Episode 39| AND |Episode 40| AND |Episode 41|"
+  },
+  "Episode 42": {
+    "connects_to": [
+      "Episode 43"
+    ],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7| AND |Episode 8| AND |Episode 9| AND |Episode 10| AND |Episode 11| AND |Episode 12| AND |Episode 13| AND |Episode 14| AND |Episode 15| AND |Episode 16| AND |Episode 17| AND |Episode 18| AND |Episode 19| AND |Episode 20| AND |Episode 21| AND |Episode 22| AND |Episode 23| AND |Episode 24| AND |Episode 25| AND |Episode 26| AND |Episode 27| AND |Episode 28| AND |Episode 29| AND |Episode 30| AND |Episode 31| AND |Episode 32| AND |Episode 33| AND |Episode 34| AND |Episode 35| AND |Episode 36| AND |Episode 37| AND |Episode 38| AND |Episode 39| AND |Episode 40| AND |Episode 41| AND |Episode 42|"
+  },
+  "Episode 43": {
+    "connects_to": [
+      "Episode 44"
+    ],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7| AND |Episode 8| AND |Episode 9| AND |Episode 10| AND |Episode 11| AND |Episode 12| AND |Episode 13| AND |Episode 14| AND |Episode 15| AND |Episode 16| AND |Episode 17| AND |Episode 18| AND |Episode 19| AND |Episode 20| AND |Episode 21| AND |Episode 22| AND |Episode 23| AND |Episode 24| AND |Episode 25| AND |Episode 26| AND |Episode 27| AND |Episode 28| AND |Episode 29| AND |Episode 30| AND |Episode 31| AND |Episode 32| AND |Episode 33| AND |Episode 34| AND |Episode 35| AND |Episode 36| AND |Episode 37| AND |Episode 38| AND |Episode 39| AND |Episode 40| AND |Episode 41| AND |Episode 42| AND |Episode 43|"
+  },
+  "Episode 44": {
+    "connects_to": [
+      "Episode 45"
+    ],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7| AND |Episode 8| AND |Episode 9| AND |Episode 10| AND |Episode 11| AND |Episode 12| AND |Episode 13| AND |Episode 14| AND |Episode 15| AND |Episode 16| AND |Episode 17| AND |Episode 18| AND |Episode 19| AND |Episode 20| AND |Episode 21| AND |Episode 22| AND |Episode 23| AND |Episode 24| AND |Episode 25| AND |Episode 26| AND |Episode 27| AND |Episode 28| AND |Episode 29| AND |Episode 30| AND |Episode 31| AND |Episode 32| AND |Episode 33| AND |Episode 34| AND |Episode 35| AND |Episode 36| AND |Episode 37| AND |Episode 38| AND |Episode 39| AND |Episode 40| AND |Episode 41| AND |Episode 42| AND |Episode 43| AND |Episode 44|"
+  },
+  "Episode 45": {
+    "connects_to": [
+      "Episode 46"
+    ],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7| AND |Episode 8| AND |Episode 9| AND |Episode 10| AND |Episode 11| AND |Episode 12| AND |Episode 13| AND |Episode 14| AND |Episode 15| AND |Episode 16| AND |Episode 17| AND |Episode 18| AND |Episode 19| AND |Episode 20| AND |Episode 21| AND |Episode 22| AND |Episode 23| AND |Episode 24| AND |Episode 25| AND |Episode 26| AND |Episode 27| AND |Episode 28| AND |Episode 29| AND |Episode 30| AND |Episode 31| AND |Episode 32| AND |Episode 33| AND |Episode 34| AND |Episode 35| AND |Episode 36| AND |Episode 37| AND |Episode 38| AND |Episode 39| AND |Episode 40| AND |Episode 41| AND |Episode 42| AND |Episode 43| AND |Episode 44| AND |Episode 45|"
+  },
+  "Episode 46": {
+    "connects_to": [
+      "Episode 47"
+    ],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7| AND |Episode 8| AND |Episode 9| AND |Episode 10| AND |Episode 11| AND |Episode 12| AND |Episode 13| AND |Episode 14| AND |Episode 15| AND |Episode 16| AND |Episode 17| AND |Episode 18| AND |Episode 19| AND |Episode 20| AND |Episode 21| AND |Episode 22| AND |Episode 23| AND |Episode 24| AND |Episode 25| AND |Episode 26| AND |Episode 27| AND |Episode 28| AND |Episode 29| AND |Episode 30| AND |Episode 31| AND |Episode 32| AND |Episode 33| AND |Episode 34| AND |Episode 35| AND |Episode 36| AND |Episode 37| AND |Episode 38| AND |Episode 39| AND |Episode 40| AND |Episode 41| AND |Episode 42| AND |Episode 43| AND |Episode 44| AND |Episode 45| AND |Episode 46|"
+  },
+  "Episode 47": {
+    "connects_to": [
+      "Episode 48"
+    ],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7| AND |Episode 8| AND |Episode 9| AND |Episode 10| AND |Episode 11| AND |Episode 12| AND |Episode 13| AND |Episode 14| AND |Episode 15| AND |Episode 16| AND |Episode 17| AND |Episode 18| AND |Episode 19| AND |Episode 20| AND |Episode 21| AND |Episode 22| AND |Episode 23| AND |Episode 24| AND |Episode 25| AND |Episode 26| AND |Episode 27| AND |Episode 28| AND |Episode 29| AND |Episode 30| AND |Episode 31| AND |Episode 32| AND |Episode 33| AND |Episode 34| AND |Episode 35| AND |Episode 36| AND |Episode 37| AND |Episode 38| AND |Episode 39| AND |Episode 40| AND |Episode 41| AND |Episode 42| AND |Episode 43| AND |Episode 44| AND |Episode 45| AND |Episode 46| AND |Episode 47|"
+  },
+  "Episode 48": {
+    "connects_to": [
+      "Episode 49"
+    ],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7| AND |Episode 8| AND |Episode 9| AND |Episode 10| AND |Episode 11| AND |Episode 12| AND |Episode 13| AND |Episode 14| AND |Episode 15| AND |Episode 16| AND |Episode 17| AND |Episode 18| AND |Episode 19| AND |Episode 20| AND |Episode 21| AND |Episode 22| AND |Episode 23| AND |Episode 24| AND |Episode 25| AND |Episode 26| AND |Episode 27| AND |Episode 28| AND |Episode 29| AND |Episode 30| AND |Episode 31| AND |Episode 32| AND |Episode 33| AND |Episode 34| AND |Episode 35| AND |Episode 36| AND |Episode 37| AND |Episode 38| AND |Episode 39| AND |Episode 40| AND |Episode 41| AND |Episode 42| AND |Episode 43| AND |Episode 44| AND |Episode 45| AND |Episode 46| AND |Episode 47| AND |Episode 48|"
+  },
+  "Episode 49": {
+    "connects_to": [
+      "Episode 50"
+    ],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7| AND |Episode 8| AND |Episode 9| AND |Episode 10| AND |Episode 11| AND |Episode 12| AND |Episode 13| AND |Episode 14| AND |Episode 15| AND |Episode 16| AND |Episode 17| AND |Episode 18| AND |Episode 19| AND |Episode 20| AND |Episode 21| AND |Episode 22| AND |Episode 23| AND |Episode 24| AND |Episode 25| AND |Episode 26| AND |Episode 27| AND |Episode 28| AND |Episode 29| AND |Episode 30| AND |Episode 31| AND |Episode 32| AND |Episode 33| AND |Episode 34| AND |Episode 35| AND |Episode 36| AND |Episode 37| AND |Episode 38| AND |Episode 39| AND |Episode 40| AND |Episode 41| AND |Episode 42| AND |Episode 43| AND |Episode 44| AND |Episode 45| AND |Episode 46| AND |Episode 47| AND |Episode 48| AND |Episode 49|"
+  },
+  "Episode 50": {
+    "connects_to": [],
+    "requires": "|Episode 1| AND |Episode 2| AND |Episode 3| AND |Episode 4| AND |Episode 5| AND |Episode 6| AND |Episode 7| AND |Episode 8| AND |Episode 9| AND |Episode 10| AND |Episode 11| AND |Episode 12| AND |Episode 13| AND |Episode 14| AND |Episode 15| AND |Episode 16| AND |Episode 17| AND |Episode 18| AND |Episode 19| AND |Episode 20| AND |Episode 21| AND |Episode 22| AND |Episode 23| AND |Episode 24| AND |Episode 25| AND |Episode 26| AND |Episode 27| AND |Episode 28| AND |Episode 29| AND |Episode 30| AND |Episode 31| AND |Episode 32| AND |Episode 33| AND |Episode 34| AND |Episode 35| AND |Episode 36| AND |Episode 37| AND |Episode 38| AND |Episode 39| AND |Episode 40| AND |Episode 41| AND |Episode 42| AND |Episode 43| AND |Episode 44| AND |Episode 45| AND |Episode 46| AND |Episode 47| AND |Episode 48| AND |Episode 49| AND |Episode 50|"
   }
 }

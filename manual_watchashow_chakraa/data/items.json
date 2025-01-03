@@ -1,10 +1,17 @@
 [
   {
     "count": 1,
+    "name": "Episode 1",
+    "category": [
+      "Episodes"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
     "name": "Episode 2",
     "category": [
-      "Episodes",
-      "Episode 2"
+      "Episodes"
     ],
     "progression": true
   },
@@ -12,8 +19,7 @@
     "count": 1,
     "name": "Episode 3",
     "category": [
-      "Episodes",
-      "Episode 3"
+      "Episodes"
     ],
     "progression": true
   },
@@ -21,8 +27,7 @@
     "count": 1,
     "name": "Episode 4",
     "category": [
-      "Episodes",
-      "Episode 4"
+      "Episodes"
     ],
     "progression": true
   },
@@ -30,8 +35,7 @@
     "count": 1,
     "name": "Episode 5",
     "category": [
-      "Episodes",
-      "Episode 5"
+      "Episodes"
     ],
     "progression": true
   },
@@ -39,8 +43,7 @@
     "count": 1,
     "name": "Episode 6",
     "category": [
-      "Episodes",
-      "Episode 6"
+      "Episodes"
     ],
     "progression": true
   },
@@ -48,8 +51,7 @@
     "count": 1,
     "name": "Episode 7",
     "category": [
-      "Episodes",
-      "Episode 7"
+      "Episodes"
     ],
     "progression": true
   },
@@ -57,8 +59,7 @@
     "count": 1,
     "name": "Episode 8",
     "category": [
-      "Episodes",
-      "Episode 8"
+      "Episodes"
     ],
     "progression": true
   },
@@ -66,17 +67,7 @@
     "count": 1,
     "name": "Episode 9",
     "category": [
-      "Episodes",
-      "Episode 9"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Episode 1",
-    "category": [
-      "Episodes",
-      "Episode 1"
+      "Episodes"
     ],
     "progression": true
   },
@@ -84,8 +75,7 @@
     "count": 1,
     "name": "Episode 10",
     "category": [
-      "Episodes",
-      "Episode 10"
+      "Episodes"
     ],
     "progression": true
   },
@@ -93,8 +83,7 @@
     "count": 1,
     "name": "Episode 11",
     "category": [
-      "Episodes",
-      "Episode 11"
+      "Episodes"
     ],
     "progression": true
   },
@@ -102,8 +91,7 @@
     "count": 1,
     "name": "Episode 12",
     "category": [
-      "Episodes",
-      "Episode 12"
+      "Episodes"
     ],
     "progression": true
   },
@@ -111,8 +99,7 @@
     "count": 1,
     "name": "Episode 13",
     "category": [
-      "Episodes",
-      "Episode 13"
+      "Episodes"
     ],
     "progression": true
   },
@@ -120,8 +107,7 @@
     "count": 1,
     "name": "Episode 14",
     "category": [
-      "Episodes",
-      "Episode 14"
+      "Episodes"
     ],
     "progression": true
   },
@@ -129,8 +115,7 @@
     "count": 1,
     "name": "Episode 15",
     "category": [
-      "Episodes",
-      "Episode 15"
+      "Episodes"
     ],
     "progression": true
   },
@@ -138,8 +123,7 @@
     "count": 1,
     "name": "Episode 16",
     "category": [
-      "Episodes",
-      "Episode 16"
+      "Episodes"
     ],
     "progression": true
   },
@@ -147,8 +131,7 @@
     "count": 1,
     "name": "Episode 17",
     "category": [
-      "Episodes",
-      "Episode 17"
+      "Episodes"
     ],
     "progression": true
   },
@@ -156,8 +139,7 @@
     "count": 1,
     "name": "Episode 18",
     "category": [
-      "Episodes",
-      "Episode 18"
+      "Episodes"
     ],
     "progression": true
   },
@@ -165,8 +147,7 @@
     "count": 1,
     "name": "Episode 19",
     "category": [
-      "Episodes",
-      "Episode 19"
+      "Episodes"
     ],
     "progression": true
   },
@@ -174,8 +155,247 @@
     "count": 1,
     "name": "Episode 20",
     "category": [
-      "Episodes",
-      "Episode 20"
+      "Episodes"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Episode 21",
+    "category": [
+      "Episodes"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Episode 22",
+    "category": [
+      "Episodes"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Episode 23",
+    "category": [
+      "Episodes"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Episode 24",
+    "category": [
+      "Episodes"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Episode 25",
+    "category": [
+      "Episodes"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Episode 26",
+    "category": [
+      "Episodes"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Episode 27",
+    "category": [
+      "Episodes"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Episode 28",
+    "category": [
+      "Episodes"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Episode 29",
+    "category": [
+      "Episodes"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Episode 30",
+    "category": [
+      "Episodes"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Episode 31",
+    "category": [
+      "Episodes"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Episode 32",
+    "category": [
+      "Episodes"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Episode 33",
+    "category": [
+      "Episodes"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Episode 34",
+    "category": [
+      "Episodes"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Episode 35",
+    "category": [
+      "Episodes"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Episode 36",
+    "category": [
+      "Episodes"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Episode 37",
+    "category": [
+      "Episodes"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Episode 38",
+    "category": [
+      "Episodes"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Episode 39",
+    "category": [
+      "Episodes"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Episode 40",
+    "category": [
+      "Episodes"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Episode 41",
+    "category": [
+      "Episodes"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Episode 42",
+    "category": [
+      "Episodes"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Episode 43",
+    "category": [
+      "Episodes"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Episode 44",
+    "category": [
+      "Episodes"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Episode 45",
+    "category": [
+      "Episodes"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Episode 46",
+    "category": [
+      "Episodes"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Episode 47",
+    "category": [
+      "Episodes"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Episode 48",
+    "category": [
+      "Episodes"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Episode 49",
+    "category": [
+      "Episodes"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Episode 50",
+    "category": [
+      "Episodes"
     ],
     "progression": true
   }

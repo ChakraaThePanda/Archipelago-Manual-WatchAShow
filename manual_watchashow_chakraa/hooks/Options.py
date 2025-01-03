@@ -27,8 +27,8 @@ from ..Helpers import is_option_enabled, get_option_value
 #   options["total_characters_to_win_with"] = TotalCharactersToWinWith
 #
 class NumberofEpisodes(Range):
-    """Select the amount of Episodes you want to watch"""
-    display_name = "Number of Episodes to watch to beat the game"
+    """Select the amount of episodes you want to watch"""
+    display_name = "Number of episodes to watch to beat the game"
     range_start = 1
     range_end = 50
     default = 10

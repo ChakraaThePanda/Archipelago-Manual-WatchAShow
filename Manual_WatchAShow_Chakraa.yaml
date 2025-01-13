@@ -2,6 +2,10 @@ Manual_WatchAShow_Chakraa:
     progression_balancing: 50
     accessibility: items
     number_of_episodes: 10
+    locations_per_episode: 4
+    episodes_order:
+      chaotic: 0
+      sequential: 50
 
 game: Manual_WatchAShow_Chakraa
 name: Player{number}

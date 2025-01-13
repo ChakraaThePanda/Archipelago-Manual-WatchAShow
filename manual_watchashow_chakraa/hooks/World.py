@@ -5,7 +5,7 @@ from BaseClasses import MultiWorld, CollectionState
 # Object classes from Manual -- extending AP core -- representing items and locations that are used in generation
 from ..Items import ManualItem
 from ..Locations import ManualLocation
-from .Options import NumberofEpisodes
+from .Options import NumberofEpisodes, LocationsPerEpisode
 
 # Raw JSON data from the Manual apworld, respectively:
 #          data/game.json, data/items.json, data/locations.json, data/regions.json
@@ -46,6 +46,7 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     # Use this hook to remove locations from the world
     locationNamesToRemove = []  # List of location names to remove
     number_of_episodes = get_option_value(multiworld, player, "number_of_episodes")  # Get the maximum episode limit
+    locations_per_episode = get_option_value(multiworld, player, "locations_per_episode")  # Get the maximum location limit
 
     # Iterate through all regions in the multiworld
     for region in multiworld.regions:
@@ -53,9 +54,12 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
             for location in list(region.locations):  # Copy of the locations list for safe iteration
                 if location.name.startswith("Episode "):  # Check if the location name starts with "Episode "
                     try:
-                        episode_number = int(location.name.split(" ")[1])  # Extract episode number
-                        if episode_number > number_of_episodes:  # Compare with the limit
-                            region.locations.remove(location)  # Remove the location
+                        # Extract episode and item numbers
+                        episode_number, item_number = map(int, location.name.replace("Episode ", "").replace("Item ", "").split(" - "))
+                        
+                        # Compare episode and item numbers with the limits
+                        if episode_number > number_of_episodes or item_number > locations_per_episode:
+                            region.locations.remove(location)  # Remove the location if it exceeds the limits
                     except ValueError:
                         # If parsing fails, skip this entry
                         continue

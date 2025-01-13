@@ -30,13 +30,28 @@ class NumberofEpisodes(Range):
     """Select the amount of episodes you want to watch"""
     display_name = "Number of episodes to watch to beat the game"
     range_start = 1
-    range_end = 50
+    range_end = 100
     default = 10
 
+class LocationsPerEpisode(Range):
+    """Select the amount of locations each episode have"""
+    display_name = "Amount of locations each episode have"
+    range_start = 1
+    range_end = 4
+    default = 4
+
+class EpisodesOrder(Choice):
+    """Sequential will force the logic to watch the episodes in order, Chaotic will allow the episodes to be watched in any order"""
+    display_name = """Sequential will force the logic to watch the episodes in order, Chaotic will allow the episodes to be watched in any order"""
+    option_chaotic = 0
+    option_sequential = 1
+    default = 1
 
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict) -> dict:
     options["number_of_episodes"] = NumberofEpisodes
+    options["locations_per_episode"] = LocationsPerEpisode
+    options["episodes_order"] = EpisodesOrder
     return options
 
 # This is called after any manual options are defined, in case you want to see what options are defined or want to modify the defined options

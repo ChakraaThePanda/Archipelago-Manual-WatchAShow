@@ -28,21 +28,21 @@ from ..Helpers import is_option_enabled, get_option_value
 #
 class NumberofEpisodes(Range):
     """Select the amount of episodes you want to watch"""
-    display_name = "Number of episodes to watch to beat the game"
+    display_name = "Episodes to beat the game"
     range_start = 1
     range_end = 100
     default = 10
 
 class LocationsPerEpisode(Range):
     """Select the amount of locations each episode have"""
-    display_name = "Amount of locations each episode have"
+    display_name = "Locations per episode"
     range_start = 1
     range_end = 4
     default = 4
 
 class EpisodesOrder(Choice):
     """Sequential will force the logic to watch the episodes in order, Chaotic will allow the episodes to be watched in any order"""
-    display_name = """Sequential will force the logic to watch the episodes in order, Chaotic will allow the episodes to be watched in any order"""
+    display_name = """Sequential or Chaotic"""
     option_chaotic = 0
     option_sequential = 1
     default = 1

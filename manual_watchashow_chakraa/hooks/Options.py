@@ -37,7 +37,7 @@ class LocationsPerEpisode(Range):
     """Select the amount of locations each episode have"""
     display_name = "Locations per episode"
     range_start = 1
-    range_end = 4
+    range_end = 10
     default = 4
 
 class EpisodesOrder(Choice):

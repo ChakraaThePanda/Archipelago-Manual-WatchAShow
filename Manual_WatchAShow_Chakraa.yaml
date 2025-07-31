@@ -32,7 +32,7 @@ description: Default Manual_WatchAShow_Chakraa Template
 
 game: Manual_WatchAShow_Chakraa
 requires:
-  version: 0.5.1 # Version of Archipelago required for this yaml to work as expected.
+  version: 0.6.2 # Version of Archipelago required for this yaml to work as expected.
 
 Manual_WatchAShow_Chakraa:
   # Game Options
@@ -60,6 +60,10 @@ Manual_WatchAShow_Chakraa:
     full: 50
     minimal: 0
 
+  plando_items:
+    # Generic items plando.
+    []
+
   number_of_episodes:
     # Select the amount of episodes you want to watch
     #
@@ -76,7 +80,7 @@ Manual_WatchAShow_Chakraa:
     #
     # You can define additional values between the minimum and maximum values.
     # Minimum value is 1
-    # Maximum value is 4
+    # Maximum value is 10
     4: 50
     random: 0
     random-low: 0
@@ -100,6 +104,12 @@ Manual_WatchAShow_Chakraa:
     # Start with these items.
     {}
 
+  start_inventory_from_pool:
+    # Start with these items and don't place them in the world.
+    # 
+    # The game decides what the replacement items will be.
+    {}
+
   start_hints:
     # Start with these item's locations prefilled into the ``!hint`` command.
     []
@@ -119,9 +129,3 @@ Manual_WatchAShow_Chakraa:
   item_links:
     # Share part of your item pool with other players.
     []
-
-  start_inventory_from_pool:
-    # Start with these items and don't place them in the world.
-    # 
-    # The game decides what the replacement items will be.
-    {}

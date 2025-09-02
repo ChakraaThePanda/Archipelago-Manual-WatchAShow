@@ -1,7 +1,7 @@
 [
   {
     "count": 1,
-    "name": "Episode 1",
+    "name": "Episode 01",
     "category": [
       "Episodes"
     ],
@@ -9,7 +9,7 @@
   },
   {
     "count": 1,
-    "name": "Episode 2",
+    "name": "Episode 02",
     "category": [
       "Episodes"
     ],
@@ -17,7 +17,7 @@
   },
   {
     "count": 1,
-    "name": "Episode 3",
+    "name": "Episode 03",
     "category": [
       "Episodes"
     ],
@@ -25,7 +25,7 @@
   },
   {
     "count": 1,
-    "name": "Episode 4",
+    "name": "Episode 04",
     "category": [
       "Episodes"
     ],
@@ -33,7 +33,7 @@
   },
   {
     "count": 1,
-    "name": "Episode 5",
+    "name": "Episode 05",
     "category": [
       "Episodes"
     ],
@@ -41,7 +41,7 @@
   },
   {
     "count": 1,
-    "name": "Episode 6",
+    "name": "Episode 06",
     "category": [
       "Episodes"
     ],
@@ -49,7 +49,7 @@
   },
   {
     "count": 1,
-    "name": "Episode 7",
+    "name": "Episode 07",
     "category": [
       "Episodes"
     ],
@@ -57,7 +57,7 @@
   },
   {
     "count": 1,
-    "name": "Episode 8",
+    "name": "Episode 08",
     "category": [
       "Episodes"
     ],
@@ -65,7 +65,7 @@
   },
   {
     "count": 1,
-    "name": "Episode 9",
+    "name": "Episode 09",
     "category": [
       "Episodes"
     ],
@@ -804,6 +804,6 @@
     "name": "Bisou",
     "category": [
     ],
-    "filler":true
+    "useful":true
   }
 ]

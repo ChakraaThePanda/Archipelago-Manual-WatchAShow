@@ -85,8 +85,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
 
 # The item pool after starting items are processed but before filler is added, in case you want to see the raw item pool at that stage
 def before_create_items_filler(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
-    # Use this hook to remove items from the item pool
-    itemNamesToRemove = []  # List of item names
+    
     number_of_episodes = get_option_value(multiworld, player, "number_of_episodes")  # Define how many episodes we want
 
     for item_check in list(item_pool):  # Create a copy of the item_pool to iterate through

@@ -29,7 +29,7 @@ class NumberofEpisodes(Range):
     """Select the amount of episodes you want to watch"""
     display_name = "Episodes to beat the game"
     range_start = 1
-    range_end = 100
+    range_end = 200
     default = 10
 
 class LocationsPerEpisode(Range):

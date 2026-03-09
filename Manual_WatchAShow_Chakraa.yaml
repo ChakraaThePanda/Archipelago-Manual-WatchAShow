@@ -32,7 +32,7 @@ description: Default Manual_WatchAShow_Chakraa Template
 
 game: Manual_WatchAShow_Chakraa
 requires:
-  version: 0.6.3 # Version of Archipelago required for this yaml to work as expected.
+  version: 0.6.6 # Version of Archipelago required for this yaml to work as expected.
 
 Manual_WatchAShow_Chakraa:
   ################
@@ -47,8 +47,9 @@ Manual_WatchAShow_Chakraa:
     # Minimum value is 0
     # Maximum value is 99
     random: 0
-    random-low: 0
-    random-high: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-99: 0 # random value between 0 and 99
     disabled: 0 # equivalent to 0
     normal: 50 # equivalent to 50
     extreme: 0 # equivalent to 99
@@ -67,11 +68,12 @@ Manual_WatchAShow_Chakraa:
     #
     # You can define additional values between the minimum and maximum values.
     # Minimum value is 1
-    # Maximum value is 200
+    # Maximum value is 300
     10: 50
     random: 0
-    random-low: 0
-    random-high: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-300: 0 # random value between 1 and 300
 
   locations_per_episode:
     # Select the amount of locations each episode have
@@ -81,8 +83,9 @@ Manual_WatchAShow_Chakraa:
     # Maximum value is 10
     4: 50
     random: 0
-    random-low: 0
-    random-high: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-10: 0 # random value between 1 and 10
 
   episodes_order:
     # Sequential will force the logic to watch the episodes in order, Chaotic will allow the episodes to be watched in any order
@@ -101,11 +104,11 @@ Manual_WatchAShow_Chakraa:
     []
 
   start_inventory:
-    # Start with these items.
+    # Start with the specified amount of these items. Example: "Bomb: 1"
     {}
 
   start_inventory_from_pool:
-    # Start with these items and don't place them in the world.
+    # Start with the specified amount of these items and don't place them in the world. Example: "Bomb: 1"
     # 
     # The game decides what the replacement items will be.
     {}

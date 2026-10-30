@@ -128,6 +128,16 @@ def before_set_rules(world: World, multiworld: MultiWorld, player: int):
 
 # Called after rules for accessing regions and locations are created, in case you want to see or modify that information.
 def after_set_rules(world: World, multiworld: MultiWorld, player: int):
+    # Each episode can be entered from the Starting Region (chaotic) or from the previous episode (sequential)
+    # Close the entrances that don't belong to the chosen order
+    sequential = get_option_value(multiworld, player, "episodes_order") == 1
+
+    for region in multiworld.get_regions(player):
+        if region.name.startswith("Episode ") and region.name != "Episode 001":  # Episode 001 is always entered from the Starting Region
+            for entrance in region.entrances:
+                if (entrance.parent_region.name == "Starting Region") == sequential:
+                    entrance.access_rule = lambda state: False
+
     # Use this hook to modify the access rules for a given location
 
     def Example_Rule(state: CollectionState) -> bool:

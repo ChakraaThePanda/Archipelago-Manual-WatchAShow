@@ -27,3 +27,7 @@ def anyClassLevel(state: CollectionState, player: int, level: str):
 def requiresMelee():
     """Returns a requires string that checks if the player has unlocked the tank."""
     return "|Figher Level:15| or |Black Belt Level:15| or |Thief Level:15|"
+
+def episodesUpTo(world: World, state: CollectionState, player: int, episode: str):
+    """Has the player unlocked every episode from 001 up to the given one? Used for sequential order."""
+    return state.has_all([f"Episode {i:03}" for i in range(1, int(episode) + 1)], player)

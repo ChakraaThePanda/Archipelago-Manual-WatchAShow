@@ -1,0 +1,10 @@
+{
+  "game": "Manual_WatchAShow_Chakraa",
+  "authors": [
+    "Chakraa"
+  ],
+  "minimum_ap_version": "0.6.7",
+  "compatible_version": 7,
+  "version": 7,
+  "world_version": "2026.10.30"
+}
